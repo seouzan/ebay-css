@@ -93,10 +93,10 @@ h6 { font: 400 1.2em 'Oswald', sans-serif; }
 }
 
 @media (max-width: 600px) {
-  .product-container > img { max-width: 99%; }
+  .product-container > img { max-width: 100%; }
   .tabordion { flex-direction: row !important; }
   .tabordion section label {
     top: 85%;
-    width: 99%;
+    width: 100%;
   }
 }
