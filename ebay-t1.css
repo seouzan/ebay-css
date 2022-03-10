@@ -84,6 +84,13 @@ h6 { font: 400 1.2em 'Oswald', sans-serif; }
   background-color: #444;
   color: #fff;
 }
+.tabs li > input:checked ~ .tab-content { display: block; }
+#wrapper::after {
+  color: #1B5083;
+  content: 'Blazing Tail';
+  font-size: 0.875rem;
+  float: right;
+}
 
 @media (max-width: 600px) {
   .product-container > img { max-width: 100%; }
